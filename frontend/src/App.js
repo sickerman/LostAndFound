@@ -1,7 +1,15 @@
 import React from 'react';
 
+import HomePage from './pages/homepage/homepage.component';
+import Header from './components/header/header.component';
+
 function App() {
-  return <h1>Let's start!</h1>;
+  return (
+    <div>
+      <Header />
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
