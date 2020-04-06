@@ -7,6 +7,8 @@ const LOSTFOUND_ITEMS = [
     perishable: '',
     area: 'Washroom',
     finder: 'John',
+    claimedby: '',
+    dateclaimed: '',
   },
   {
     id: '2',
@@ -16,6 +18,8 @@ const LOSTFOUND_ITEMS = [
     perishable: '',
     area: 'In the front of Lobby',
     finder: 'Smith',
+    claimedby: '',
+    dateclaimed: '',
   },
   {
     id: '3',
@@ -25,15 +29,19 @@ const LOSTFOUND_ITEMS = [
     perishable: 'Pack of cigarette',
     area: 'Beside Tim Hortons Level 1',
     finder: 'Peter',
+    claimedby: '',
+    dateclaimed: '',
   },
   {
     id: '4',
     datefound: '1/20/2020',
-    valuable: '',
-    nonvaluable: '',
-    perishable: 'Pack of cigarette',
-    area: 'Beside Tim Hortons Level 1',
+    valuable: 'Wallet with money',
+    nonvaluable: 'Bag',
+    perishable: 'Fruits',
+    area: 'Left inside the Cinema',
     finder: 'Peter',
+    claimedby: '',
+    dateclaimed: '',
   },
 ];
 
