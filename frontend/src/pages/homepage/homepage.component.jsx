@@ -26,7 +26,10 @@ class HomePage extends React.Component {
       (item) =>
         item.valuable.toLowerCase().includes(searchField.toLowerCase()) ||
         item.nonvaluable.toLowerCase().includes(searchField.toLowerCase()) ||
-        item.perishable.toLowerCase().includes(searchField.toLowerCase())
+        item.perishable.toLowerCase().includes(searchField.toLowerCase()) ||
+        item.datefound.toLowerCase().includes(searchField.toLowerCase()) ||
+        item.area.toLowerCase().includes(searchField.toLowerCase()) ||
+        item.finder.toLowerCase().includes(searchField.toLowerCase())
     );
 
     return (
