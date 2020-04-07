@@ -12,12 +12,3 @@ body {
   margin: 0;
   background: white;
 }
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  font-size: 25px;
-}

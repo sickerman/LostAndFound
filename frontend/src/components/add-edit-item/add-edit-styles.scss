@@ -1,0 +1,48 @@
+.add-edit-item {
+  width: 40%;
+  margin: auto;
+
+  padding: 20px;
+  border: 1px solid;
+  .title {
+    text-align: center;
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .cancel {
+      width: auto;
+      height: 30px;
+      letter-spacing: 0.5px;
+      line-height: 20px;
+      padding: 5px 20px 0 20px;
+      font-size: 15px;
+      background-color: black;
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Open Sans Condensed';
+      font-weight: bolder;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  .add-edit-item {
+    width: 95%;
+    margin-top: 10px;
+    .title {
+      font-size: 18px;
+    }
+  }
+}
