@@ -34,6 +34,40 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+  }
+
+  .option,
+  .text {
+    font-size: 0.7em;
+  }
+  .header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    min-width: 100%;
+    padding: 0;
+  }
+  .options {
+    margin: auto;
+    max-width: 100%;
+  }
+  .logo-container {
+    margin-right: 80px;
+  }
+  .logo-name {
+    margin-left: -40px !important;
+    margin-bottom: -60px;
+  }
+}
+
 @media only screen and (max-width: 760px),
   (min-device-width: 768px) and (max-device-width: 1024px) {
 }
